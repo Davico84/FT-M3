@@ -2,9 +2,13 @@
   "name": "03-webserver",
   "version": "1.0.0",
   "description": "",
+  "scripts": {
+    "server": "nodemon app.js"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "request": "^2.88.2"
+    "dependencies": {
+    "request": "^2.88.2",
+    "nodemon": "^1.17.*"
   }
 }
