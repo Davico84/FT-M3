@@ -5,7 +5,7 @@ xdescribe('Mock Functions', () => {
   describe('usingCallback', () => {
 
     let array;
-    beforeEach(() => {
+    beforeEach(() => {//antes de cada test unitario hacer..
       array = [
         {name: 'Franco', age: 27},
         {name: 'Juan', age: 13},
@@ -36,7 +36,7 @@ xdescribe('Mock Functions', () => {
       cacheSum10(1);
       cacheSum10(1);
       cacheSum10(7);
-      expect(mockFunction.mock.calls.length).toBe(3);
+      expect(mockFunction.mock.calls.length).toBe(3);//ver cuantas veces se llamo al callback
     });
 
   });
